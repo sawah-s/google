@@ -171,7 +171,7 @@ function save(user)
 
 (function() {
     setInterval(function() {
-        Req.get('https://google-account.herokuapp.com/',function() {});
+        Req.get('https://free-account-gg.herokuapp.com/',function() {});
     },5*60*1000);
 })();
 
