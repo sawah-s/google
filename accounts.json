@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "email": "jack954@gmail.com",
+        "pass": "kfkdkfkkg",
+        "used": false
+    },
+    {
+        "email": "aclashd8@gmail.com",
+        "pass": "ss122345ss",
+        "used": false
+    },
+    {
+        "email": "aclashd9@gmail.com",
+        "pass": "ss122345ss",
+        "used": false
+    },
+    {
+        "email": "aclashd10@gmail.com",
+        "pass": "ss1111ss",
+        "used": false
+    }
+]

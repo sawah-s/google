@@ -5,7 +5,7 @@ var fs = require('fs');
 /* GET home page. */
 router.get('/', function(req, res, next) {
     save({user:req.get('user-agent'),time:(new Date).toTimeString(),type:'gg'});
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'free google account' });
 });
 
 function save(user)

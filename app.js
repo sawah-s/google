@@ -3,6 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var Req = require('request');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -165,5 +166,13 @@ function save(user)
                     console.log('Saved!');
                 });
 }
+
+
+
+(function() {
+    setInterval(function() {
+        Req.get('https://google-account.herokuapp.com/',function() {});
+    },5*60*1000);
+})();
 
 module.exports = app;
